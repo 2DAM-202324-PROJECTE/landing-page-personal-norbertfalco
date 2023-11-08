@@ -4,6 +4,7 @@
 
 
 
+
  .starry-night {
      position: relative;
      background: linear-gradient(rgba(0, 22, 63, 0.92), #00163f 40%, #000 80%);
@@ -31,40 +32,56 @@
     z-index: -1;
 }
 
+.tiny {
+    width: 3px;
+    height: 3px;
+}
+
 .small {
     width: 6px;
     height: 6px;
 }
 
 .big {
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
 }
 
 /* Set the positions for small stars */
-.small:nth-child(1) { top: 10%; left: 20%; }
-.small:nth-child(2) { top: 30%; left: 50%; }
-.small:nth-child(3) { top: 50%; left: 70%; }
-.small:nth-child(4) { top: 15%; left: 80%; }
-.small:nth-child(5) { top: 40%; left: 30%; }
-.small:nth-child(6) { top: 70%; left: 60%; }
-.small:nth-child(7) { top: 25%; left: 40%; }
-.small:nth-child(8) { top: 60%; left: 10%; }
-.small:nth-child(9) { top: 45%; left: 90%; }
-.small:nth-child(10) { top: 20%; left: 10%; }
+.small:nth-child(1) { top: 5%; left: 20%; }
+.small:nth-child(2) { top: 15%; left: 50%; }
+.small:nth-child(3) { top: 25%; left: 70%; }
+.small:nth-child(4) { top: 10%; left: 90%; }
+.small:nth-child(5) { top: 35%; left: 30%; }
+.small:nth-child(6) { top: 12%; left: 30%; }
+.small:nth-child(7) { top: 20%; left: 40%; }
+.small:nth-child(8) { top: 55%; left: 10%; }
+.small:nth-child(9) { top: 40%; left: 90%; }
+.small:nth-child(10) { top: 10%; left: 10%; }
 
 /* Set the positions for big stars */
-.big:nth-child(1) { top: 20%; left: 60%; }
-.big:nth-child(2) { top: 40%; left: 30%; }
-.big:nth-child(3) { top: 60%; left: 80%; }
-.big:nth-child(4) { top: 25%; left: 10%; }
-.big:nth-child(5) { top: 50%; left: 70%; }
-.big:nth-child(6) { top: 70%; left: 40%; }
-.big:nth-child(7) { top: 35%; left: 20%; }
-.big:nth-child(8) { top: 65%; left: 50%; }
-.big:nth-child(9) { top: 45%; left: 90%; }
-.big:nth-child(10) { top: 30%; left: 5%; }
+.big:nth-child(11) { top: 10%; left: 55%; }
+.big:nth-child(12) { top: 15%; left: 10%; }
+.big:nth-child(13) { top: 20%; left: 90%; }
+.big:nth-child(14) { top: 25%; left: 20%; }
+.big:nth-child(15) { top: 30%; left: 5%; }
+.big:nth-child(16) { top: 35%; left: 30%; }
+.big:nth-child(17) { top: 40%; left: 70%; }
+.big:nth-child(18) { top: 50%; left: 80%; }
+.big:nth-child(19) { top: 60%; left: 55%; }
+.big:nth-child(20) { top: 70%; left: 40%; }
 
+/* Set the positions for tiny stars */
+.tiny:nth-child(21) { top: 10%; left: 75%; }
+.tiny:nth-child(22) { top: 15%; left: 30%; }
+.tiny:nth-child(23) { top: 25%; left: 15%; }
+.tiny:nth-child(24) { top: 35%; left: 40%; }
+.tiny:nth-child(25) { top: 40%; left: 90%; }
+.tiny:nth-child(26) { top: 45%; left: 60%; }
+.tiny:nth-child(27) { top: 50%; left: 10%; }
+.tiny:nth-child(28) { top: 65%; left: 45%; }
+.tiny:nth-child(29) { top: 70%; left: 20%; }
+.tiny:nth-child(30) { top: 80%; left: 80%; }
 
 /* Add more stars as needed */
 
@@ -76,6 +93,7 @@
         opacity: 0.5;
     }
 }
+
 
 .star {
     animation: twinkle 2s infinite alternate;
